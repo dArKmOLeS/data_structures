@@ -1,3 +1,6 @@
+#--------------------------------------------------------------------------------------
+#Code by :- Anmol Kumar Srivastava (dArKmOLeS)
+#--------------------------------------------------------------------------------------
 def valid_integer(target): #checks for valid integer input
     try:
         int(target)
