@@ -1,3 +1,6 @@
+#--------------------------------------------------------------------------------------
+#Code by :- Anmol Kumar Srivastava (dArKmOLeS)
+#--------------------------------------------------------------------------------------
 def linear_search(array, target): #function defination of linear search
     index = -1 #setting -1 index as element not found
     for i in range(len(array)): #for loop to check each element
