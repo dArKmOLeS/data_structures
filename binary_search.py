@@ -7,7 +7,7 @@ def valid_integer(target): #checks for valid integer input
 
 def binary_search(min, max, target, array): #binary search
     if min <= max: 
-        mid = min//2 + (max - max//2)
+        mid = min//2 + (max - max//2) #calculating mid in this way so that min+max doesn't overflow the memory
         if array[mid] > target:
             return binary_search(min, mid-1, target, array)
         elif array[mid] < target:
