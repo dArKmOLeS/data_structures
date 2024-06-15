@@ -1,3 +1,6 @@
+#--------------------------------------------------------------------------------------
+#Code by :- Anmol Kumar Srivastava (dArKmOLeS)
+#--------------------------------------------------------------------------------------
 def str_slice_check(string): #reverses the string using string slicing for comparison
     return string == string[::-1]
 
