@@ -75,7 +75,7 @@ def delete_from_array(array): #deleting from array
 def starter_code(): #start up code
     array = []
     while True:
-        print("Press 1 to insert in array.\nPress 2 to delete from array.\nPress 3 to update a value.\nPress 4 to print the array.\nPress 5 to exit.")
+        print("Press 1 to insert in array.\nPress 2 to delete from array.\nPress 3 to update a value.\nPress 4 to print the array.\nPress 5 to exit.") #print the menu
         choice  = input("Enter your choice : ")
         if is_valid_integer(choice) and choice in ["1", "2", "3", "4", "5"]:
             if choice == "1":
