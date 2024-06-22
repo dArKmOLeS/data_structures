@@ -34,4 +34,4 @@ def starter_code(): #start_up code
         else:
             print("Invalid input, Only integer values.") #invalid type message
 
-starter_code()
+starter_code()#starting the code
